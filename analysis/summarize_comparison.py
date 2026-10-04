@@ -349,7 +349,7 @@ def main():
              'engine_bytecode_sha256':sorted(set(m['engine_bytecode_sha256'] for m in metrics)),
              'java_runtime_versions':sorted(set(r['metadata']['java_version'] for r in records)),
              'batch_class_major_versions':class_versions,
-             'compiler_note':'This saved batch used the available javac 21 without --release; executable class major version 65. Regular corrected/test.sh targets Java 17 separately.',
+             'compiler_note':'This saved batch used the available javac 21 without --release; executable class major version 65. Regular test.sh targets Java 17 separately.',
              'figures':figures,'metrics':metrics,'sensitivity':sensitivity,
              'coverage_notes':['Peak stress is the maximum of saved samples at strain spacing 0.05 and the exact endpoint, not the maximum of every integration step.',
                                'DRX threshold columns record the first observed saved crossing; earlier crossings may occur between samples because current DRX ownership can decrease.',
@@ -359,7 +359,7 @@ def main():
                                'One timestep halving and one spatial refinement, when present, do not establish full convergence.',
                                'Grid refinement also changes the initial realization: integer seed placement uses different grid bounds, so the same random seed does not preserve physical Voronoi seed coordinates.',
                                'DRX fraction describes current recrystallized cell ownership and may decrease as small nuclei disappear.',
-                               'Historical files654 TSVs have unknown temperature/rate/seed and are excluded from matched-condition plots.']}
+                               'Matched-condition plots contain recorded simulator outputs, not experimental measurements.']}
     diagnostic_path=HERE/'partial_grid_diagnostic.json'
     if counts['grid_sensitivity']==0 and diagnostic_path.exists():
         diagnostic=json.loads(diagnostic_path.read_text())
@@ -399,13 +399,13 @@ def main():
               'Every aggregated run passed matching configuration metadata, successful completion status, saved-file hashes, exact target strain, complete sample coordinates, finite nonnegative values, time = strain/rate, monotone strain/time, summary/CSV reconciliation, DRX fraction bounds and observed hazard ≤ 0.25.',
               '', f'Source SHA-256: `{summary["source_sha256"]}`.',
               '', 'The saved comparison batch used the available Java 21 compiler without a --release target and ran on Java 21. The frozen class files have major version 65 and require Java 21 or newer. The separate regular test script targets Java 17; its bytecode is not the saved comparison build.',
-              '', 'Raw results, metadata, console logs and controller manifests are retained under `runs/`. Archived files654 tables have unknown run conditions and serve only as an audit reference.',
+              '', 'Raw results, metadata, console logs and controller manifests are retained under `runs/`.',
               '', '## Interpretation limits','',
               'At 1200 °C / 0.001 s⁻¹, all three corrected models end with one live grain filling the 400 × 400 µm domain. The reported 451.352 µm diameter is the equivalent circular diameter of that square area; it demonstrates domain-limited coarsening in this simulation and should not be treated as a material-scale prediction.',
               '', '## Figures','']
     lines.extend(f'- [{Path(path).name}]({Path(path).name})' for path in figures)
     if incomplete:
-        lines += ['', 'Incomplete runs were preserved and excluded:', *[f'- `{path}`' for path in incomplete]]
+        lines += ['', 'Incomplete runs were preserved and excluded:', *[f'- `{Path(path).relative_to(HERE) if Path(path).is_relative_to(HERE) else path}`' for path in incomplete]]
         if any((Path(path)/'stopped.json').exists() for path in incomplete):
             lines += ['', 'The optional 0.5 µm grid run was stopped at the user’s request to finish promptly. Its partial CSV and metadata are preserved, and it is not treated as a completed refinement or included in comparison metrics.']
     if 'partial_grid_diagnostic' in summary:

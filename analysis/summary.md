@@ -67,7 +67,7 @@ Source SHA-256: `219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf24021
 
 The saved comparison batch used the available Java 21 compiler without a --release target and ran on Java 21. The frozen class files have major version 65 and require Java 21 or newer. The separate regular test script targets Java 17; its bytecode is not the saved comparison build.
 
-Raw results, metadata, console logs and controller manifests are retained under `runs/`. Archived files654 tables have unknown run conditions and serve only as an audit reference.
+Raw results, metadata, console logs and controller manifests are retained under `runs/`.
 
 ## Interpretation limits
 
@@ -85,7 +85,7 @@ At 1200 °C / 0.001 s⁻¹, all three corrected models end with one live grain f
 - [final_ca_process_curves.png](final_ca_process_curves.png)
 
 Incomplete runs were preserved and excluded:
-- `/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38`
+- `runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38`
 
 The optional 0.5 µm grid run was stopped at the user’s request to finish promptly. Its partial CSV and metadata are preserved, and it is not treated as a completed refinement or included in comparison metrics.
 

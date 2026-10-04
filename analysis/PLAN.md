@@ -51,8 +51,7 @@ engine does not provide shared physical seed coordinates for a paired study.
 
 One frozen Java 21 reference build is retained with the completed comparison
 records so executable integrity can be checked after cloning the repository.
-Other generated builds remain ignored. Run `python3
-analysis/validate_results.py` from the repository root to recheck
+Other generated builds remain ignored. Run `python3 analysis/validate_results.py` from the repository root to recheck
 the saved numeric records; this script prefers local run paths after a move.
 
 Use the bundled Python interpreter at
@@ -102,9 +101,7 @@ preserved and refused. A new manifest name must be supplied if the default
 already exists. Numerical integration can become more expensive after DRX
 starts, so the early benchmark does not guarantee full-run time.
 
-The archived files654 TSVs have unknown run conditions and are retained only
-as a reference audit; they are not experimental measurements and are excluded
-from condition-matched model plots.
+The condition-matched plots use only the recorded simulator runs included in this repository. No experimental measurements are included in these comparisons.
 
 ## Deadline-limited validation follow-up
 
