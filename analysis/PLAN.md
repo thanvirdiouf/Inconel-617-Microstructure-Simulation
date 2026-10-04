@@ -52,7 +52,7 @@ engine does not provide shared physical seed coordinates for a paired study.
 One frozen Java 21 reference build is retained with the completed comparison
 records so executable integrity can be checked after cloning the repository.
 Other generated builds remain ignored. Run `python3
-corrected/analysis/validate_results.py` from the repository root to recheck
+analysis/validate_results.py` from the repository root to recheck
 the saved numeric records; this script prefers local run paths after a move.
 
 Use the bundled Python interpreter at
@@ -60,25 +60,25 @@ Use the bundled Python interpreter at
 From the repository root:
 
 ```bash
-python3 corrected/analysis/batch_compare.py --scope matrix --manifest corrected/analysis/matrix-recheck.json
-python3 corrected/analysis/batch_compare.py --scope sensitivity --manifest corrected/analysis/sensitivity-recheck.json
-python3 corrected/analysis/summarize_comparison.py
+python3 analysis/batch_compare.py --scope matrix --manifest analysis/matrix-recheck.json
+python3 analysis/batch_compare.py --scope sensitivity --manifest analysis/sensitivity-recheck.json
+python3 analysis/summarize_comparison.py
 ```
 
 Substitute the bundled interpreter for `python3` if the shell does not resolve
 it. The workflow snapshots source bytes and compiles them into a source-hashed
-build below `corrected/analysis/builds`. It uses at most two Java processes,
+build below `analysis/builds`. It uses at most two Java processes,
 each with a 1 GiB heap limit. Java and controller metadata record each run's
 configuration and provenance. Tables are saved without microstructure images.
 The saved batch was compiled with the available `javac 21.0.12.1` without a
 `--release` target and executed on Java `21.0.12.1`. Its frozen class files
 have major version 65 and require Java 21 or newer. This differs from the
-regular `corrected/test.sh` compilation, which explicitly targets Java 17.
+regular `test.sh` compilation, which explicitly targets Java 17.
 No completed comparison build was rebuilt to change its target.
 The commands above verify and reuse matching completed runs and save new
 recheck manifests. Choose another unused `--manifest` filename for each later
 invocation. For fresh simulations, choose a new `--runs-dir` below
-`corrected/analysis/runs/`, share that directory across the three scopes, and
+`analysis/runs/`, share that directory across the three scopes, and
 pass it to `summarize_comparison.py --runs-dir` as well.
 The `optional` scope includes the stopped grid job, so replaying that scope in
 the original run directory is intentionally refused. To run both optional
