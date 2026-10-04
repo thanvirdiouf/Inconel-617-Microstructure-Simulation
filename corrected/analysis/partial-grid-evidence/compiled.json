@@ -1,0 +1,11 @@
+{
+  "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+  "source_files": {
+    "Config.java": "afdf2d00d3ad228089ff1eeea95a751f60ef1015f137ee8fde09705bd5ca0059",
+    "DrxSimulation.java": "4050d49179317ccdd348f586cd85be95eeec152a6b84507d10f3b891449987d9",
+    "Main.java": "829d5c3bb6e8cb8f925924380bfc9386d2bbcddcfd8b07349503fd5bca88b6c5",
+    "MaterialModels.java": "73fc5729963a28dfb7c51df727c3d5fb2008eed46f63e36cdfbdfa19f7cd58dc"
+  },
+  "java_version": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-24.04.4-Ubuntu)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-24.04.4-Ubuntu, mixed mode, sharing)",
+  "compiled_utc": "2026-10-04T13:39:47.885727+00:00"
+}

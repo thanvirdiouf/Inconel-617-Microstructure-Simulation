@@ -1,0 +1,130 @@
+{
+  "status": "intermediate_diagnostic_only",
+  "matched_strain": 0.5,
+  "temperature_C": 1100,
+  "strain_rate_s^-1": 0.001,
+  "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+  "engine_bytecode_sha256": "b8ab94c497bd8dcadb1f66af85f2e4d33511350a984b443c6778ac46f45514f0",
+  "runs": [
+    {
+      "role": "completed_baseline",
+      "run_directory": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/baseline",
+      "config": {
+        "model": "final_ca",
+        "temperature_C": 1100,
+        "strain_rate_s^-1": 0.001,
+        "target_strain": 1.38,
+        "width": 400,
+        "height": 400,
+        "cell_size_um": 1,
+        "initial_grain_diameter_um": 58,
+        "nucleus_diameter_um": 1,
+        "nucleation_band_width_um": 2,
+        "seed": 42,
+        "max_strain_step": 0.00138,
+        "max_cell_travel": 0.25,
+        "output_strain_step": 0.05,
+        "images": false
+      },
+      "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+      "engine_bytecode_sha256": "b8ab94c497bd8dcadb1f66af85f2e4d33511350a984b443c6778ac46f45514f0",
+      "csv_sha256": "ec07f0a336f89df91fa002516cc58623741cd8e41f5692a6c01a4d80c9e55217",
+      "metadata_sha256": "aab2b2c0bc2bb7dae88747dd64ccc0946cca6e737cb3fdfb37112aa815c87f42",
+      "prefix_rows_checked": 11,
+      "last_saved_strain": 1.38,
+      "matched_sample": {
+        "strain": 0.5,
+        "time_s": 500.0,
+        "flow_stress_MPa": 56.4388879667,
+        "mean_grain_diameter_um": 126.591145209,
+        "mean_drx_grain_diameter_um": 126.591145209,
+        "drx_fraction": 1.0,
+        "grain_count": 11.0,
+        "drx_grain_count": 11.0,
+        "nuclei_count": 1010.0,
+        "step_count": 17035.0,
+        "max_cell_travel": 0.247035181128,
+        "cumulative_nuclei_per_um2": 0.0063125
+      }
+    },
+    {
+      "role": "stopped_optional_grid",
+      "run_directory": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/grid",
+      "config": {
+        "model": "final_ca",
+        "temperature_C": 1100,
+        "strain_rate_s^-1": 0.001,
+        "target_strain": 1.38,
+        "width": 800,
+        "height": 800,
+        "cell_size_um": 0.5,
+        "initial_grain_diameter_um": 58,
+        "nucleus_diameter_um": 1,
+        "nucleation_band_width_um": 2,
+        "seed": 42,
+        "max_strain_step": 0.00138,
+        "max_cell_travel": 0.25,
+        "output_strain_step": 0.05,
+        "images": false
+      },
+      "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+      "engine_bytecode_sha256": "b8ab94c497bd8dcadb1f66af85f2e4d33511350a984b443c6778ac46f45514f0",
+      "csv_sha256": "5c77299b6c18595ff89a696dbc3dfb1a9e6d0a194169a649b1da04d2d7265af1",
+      "metadata_sha256": "ebe7d104cc3624d7359b5759474a35a533799d7810d08ed3440b711f0525fa33",
+      "prefix_rows_checked": 11,
+      "last_saved_strain": 0.95,
+      "matched_sample": {
+        "strain": 0.5,
+        "time_s": 500.0,
+        "flow_stress_MPa": 56.3876949461,
+        "mean_grain_diameter_um": 138.892939441,
+        "mean_drx_grain_diameter_um": 138.892939441,
+        "drx_fraction": 1.0,
+        "grain_count": 10.0,
+        "drx_grain_count": 10.0,
+        "nuclei_count": 1618.0,
+        "step_count": 60440.0,
+        "max_cell_travel": 0.232545454319,
+        "cumulative_nuclei_per_um2": 0.0101125
+      }
+    }
+  ],
+  "differences": {
+    "flow_stress_MPa": {
+      "baseline": 56.4388879667,
+      "partial_grid": 56.3876949461,
+      "absolute_delta": -0.05119302060000308,
+      "percent_delta": -0.09070522550020943
+    },
+    "mean_grain_diameter_um": {
+      "baseline": 126.591145209,
+      "partial_grid": 138.892939441,
+      "absolute_delta": 12.301794232000006,
+      "percent_delta": 9.717736743505977
+    },
+    "drx_fraction": {
+      "baseline": 1.0,
+      "partial_grid": 1.0,
+      "absolute_delta": 0.0,
+      "percent_delta": 0.0
+    },
+    "cumulative_nuclei_per_um2": {
+      "baseline": 0.0063125,
+      "partial_grid": 0.0101125,
+      "absolute_delta": 0.0037999999999999996,
+      "percent_delta": 60.19801980198019
+    }
+  },
+  "checks": [
+    "requested/stopped/config/source/executable identities match",
+    "baseline saved CSV hash unchanged",
+    "both prefixes contain exact 0..0.5 samples at 0.05 spacing",
+    "prefix finite nonnegative values, monotone strain/time, time=strain/rate, DRX and hazard bounds"
+  ],
+  "sealed_evidence_directory": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence",
+  "limitations": [
+    "The 0.5 \u00b5m grid run is incomplete and stopped at strain 0.95; these values are at common strain 0.5, not endpoint 1.38.",
+    "Grid refinement changes integer Voronoi seed-placement bounds, so shared seed 42 does not preserve the same physical initial realization.",
+    "This single intermediate comparison does not establish spatial convergence or empirical agreement."
+  ]
+}

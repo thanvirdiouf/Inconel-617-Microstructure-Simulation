@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-04T13:39:48.352178+00:00",
+  "scope": "benchmark",
+  "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+  "workers": 1,
+  "timeout_seconds": 300.0,
+  "wall_seconds": 0.46629857100015215,
+  "results": [
+    {
+      "name": "main9_1100C_rate0p1_seed42_400x400_cell1um_step0p00138_strain0p03",
+      "group": "benchmark",
+      "status": "complete",
+      "reused": false,
+      "config": {
+        "model": "main9",
+        "temperature_C": 1100,
+        "strain_rate_s^-1": 0.1,
+        "target_strain": 0.03,
+        "width": 400,
+        "height": 400,
+        "cell_size_um": 1,
+        "initial_grain_diameter_um": 58,
+        "nucleus_diameter_um": 1,
+        "nucleation_band_width_um": 2,
+        "seed": 42,
+        "max_strain_step": 0.00138,
+        "max_cell_travel": 0.25,
+        "output_strain_step": 0.05,
+        "images": false
+      },
+      "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+      "runtime_seconds": 0.4647080989998358,
+      "output_directory": "/home/spectre/Projects/Inconel/corrected/analysis/runs/main9_1100C_rate0p1_seed42_400x400_cell1um_step0p00138_strain0p03/output",
+      "rows": 2,
+      "final": {
+        "strain": 0.03,
+        "time_s": 0.3,
+        "flow_stress_MPa": 41.2491252669,
+        "mean_grain_diameter_um": 56.8630156006,
+        "mean_drx_grain_diameter_um": 0.0,
+        "drx_fraction": 0.0,
+        "grain_count": 61.0,
+        "drx_grain_count": 0.0,
+        "nuclei_count": 0.0,
+        "step_count": 22.0,
+        "max_cell_travel": 0.0930520685418
+      },
+      "sampled_peak_stress_MPa": 41.2491252669,
+      "sampled_peak_strain": 0.03,
+      "results_sha256": "88aa75d65e52f613390c0a20627799d33517ad9c893dc967968f933215d5948d",
+      "metadata_sha256": "c56c7563220bbeee1f950daf81812ca04dc76a83953cd11604fcedc311633e70"
+    }
+  ]
+}

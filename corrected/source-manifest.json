@@ -1,0 +1,114 @@
+{
+  "recorded_date": "2026-10-04",
+  "purpose": "Identify the preserved supplied inputs used for model reconciliation; hashes are not evidence of experimental validation.",
+  "final_ca_calibration_source": "files654/final-CA-15-4/untitled/src/Main.java",
+  "legacy_saved_bytecode_matches_active_source": false,
+  "legacy_saved_outputs_run_conditions": "Not supplied; do not treat as experimental observations.",
+  "files": [
+    {
+      "path": "CAC_final (1).java",
+      "bytes": 25652,
+      "sha256": "7736ef3175fbef7fb88a5547546cd580ff8c8d15bca1ffb7ff16b901b1d2aed2"
+    },
+    {
+      "path": "CAC_final (2).java",
+      "bytes": 25604,
+      "sha256": "eacaf300d03a03847bca23a4dedd59a107ad767850d35c6ebb4f257500f8c8e0"
+    },
+    {
+      "path": "Main (1).java",
+      "bytes": 30873,
+      "sha256": "566be69e793e473caae223c6212fe8f6661e142b3f4830efcf8009f1461052e2"
+    },
+    {
+      "path": "Main (2).java",
+      "bytes": 31327,
+      "sha256": "68844314c57365c3e8695f0478adc0ee2a882428cdea1210f2ede24edd4d5cca"
+    },
+    {
+      "path": "Main (3).java",
+      "bytes": 29545,
+      "sha256": "7fa54a84eff643c656f90c68f5d24df182b1800444cbdc705d2f3cb71d208fa7"
+    },
+    {
+      "path": "Main (4).java",
+      "bytes": 30873,
+      "sha256": "566be69e793e473caae223c6212fe8f6661e142b3f4830efcf8009f1461052e2"
+    },
+    {
+      "path": "Main (5).java",
+      "bytes": 30873,
+      "sha256": "566be69e793e473caae223c6212fe8f6661e142b3f4830efcf8009f1461052e2"
+    },
+    {
+      "path": "Main (6).java",
+      "bytes": 30092,
+      "sha256": "4a225ddc3678416d2f37710ebc6474ee07f7a2223db003a6c87a00ebc3aec9ff"
+    },
+    {
+      "path": "Main (7).java",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Main (8).java",
+      "bytes": 33341,
+      "sha256": "1a1ca7e5086de6229c0b12fadf75360db21349f12e683f1013bb082cb5b0d0ab"
+    },
+    {
+      "path": "Main (9).java",
+      "bytes": 31845,
+      "sha256": "04618e8c2e0222afc345e421d609cf521baad0373740a7688606dafa4f7fa267"
+    },
+    {
+      "path": "Main.java",
+      "bytes": 30163,
+      "sha256": "d5f37a55806319682b8cf6fe0a0b4e9003a3307c2d7341fa8e41cbb3367ad4c8"
+    },
+    {
+      "path": "Main_variant.java",
+      "bytes": 30134,
+      "sha256": "d6046401f880cf93e07d11130d4eee149731fb88f0f2e2971354b9daa94aa611"
+    },
+    {
+      "path": "haha.java",
+      "bytes": 281,
+      "sha256": "6fde0e627feb1d6078d1031165d887e01fdccd0551b1e3d2b3ef64bb1a6b85a6"
+    },
+    {
+      "path": "project report may24.docx",
+      "bytes": 846138,
+      "sha256": "27c88044b2c75533c3a681afbbf20ad0deb8530eba0352ae79050586692d402d"
+    },
+    {
+      "path": "files654/Main.java",
+      "bytes": 32147,
+      "sha256": "6df0fde97571719477b4e6bfc8b38e1a4e64b5fe0e02edf89c0eb18d5ed80338"
+    },
+    {
+      "path": "files654/final-CA-15-4/untitled/src/Main.java",
+      "bytes": 31774,
+      "sha256": "50d4c90f0c5c432eef81b68d6a523801665c7e5d4eceeb884c9cb7b75606bf89"
+    },
+    {
+      "path": "files654/PROJECT REPORT (FINAL).pdf",
+      "bytes": 1873418,
+      "sha256": "de19d159e4b3d87ce8ec2e2a2d7824283c53487f9075ed92bda897f3e5019624"
+    },
+    {
+      "path": "files654/final-CA-15-4/untitled/out/production/untitled/Main.class",
+      "bytes": 13915,
+      "sha256": "f2d74fc8042849c59bb705052c54a741c04d26df13c3025e5735f333d07695d5"
+    },
+    {
+      "path": "files654/final-CA-15-4/untitled/flowstress.xls",
+      "bytes": 942720,
+      "sha256": "718948e26232b9f8102f3c2923b9e9fe7257fdabe51635d4de9d65d6172caa3d"
+    },
+    {
+      "path": "files654/final-CA-15-4/untitled/grainsize.xls",
+      "bytes": 1646151,
+      "sha256": "32f88b2bd911b05ed6772533b9b96d248484610be3636906b1c7b5edc1404b31"
+    }
+  ]
+}

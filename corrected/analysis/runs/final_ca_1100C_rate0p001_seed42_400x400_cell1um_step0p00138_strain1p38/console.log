@@ -1,0 +1,8 @@
+Running final_ca at 1100.00 C, 0.00100000 s^-1, strain 1.38000, seed 42
+Output: /home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/output
+20% complete; strain 0.30000
+40% complete; strain 0.60000
+60% complete; strain 0.85000
+80% complete; strain 1.15000
+Complete: 38665 steps; stress 56.603 MPa; DRX fraction 1.0000
+Results: /home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/output/results.csv

@@ -1,0 +1,4 @@
+Running main9 at 1100.00 C, 0.100000 s^-1, strain 0.0300000, seed 42
+Output: /home/spectre/Projects/Inconel/corrected/analysis/runs/main9_1100C_rate0p1_seed42_400x400_cell1um_step0p00138_strain0p03/output
+Complete: 22 steps; stress 41.249 MPa; DRX fraction 0.0000
+Results: /home/spectre/Projects/Inconel/corrected/analysis/runs/main9_1100C_rate0p1_seed42_400x400_cell1um_step0p00138_strain0p03/output/results.csv

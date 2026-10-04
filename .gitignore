@@ -1,0 +1,12 @@
+*.class
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+*.iml
+corrected/analysis/builds/
+corrected/analysis/.worker-locks/
+corrected/analysis/grid-retry-*/
+
+# Preserve completed analysis records, but keep the interrupted optional run local.
+corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/

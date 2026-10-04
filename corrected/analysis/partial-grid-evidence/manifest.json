@@ -1,0 +1,66 @@
+{
+  "purpose": "Sealed source evidence for intermediate grid diagnostic at strain 0.5; grid run incomplete",
+  "files": [
+    {
+      "role": "baseline",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/baseline/output/results.csv",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/output/results.csv",
+      "sha256": "ec07f0a336f89df91fa002516cc58623741cd8e41f5692a6c01a4d80c9e55217"
+    },
+    {
+      "role": "baseline",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/baseline/output/run.properties",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/output/run.properties",
+      "sha256": "aab2b2c0bc2bb7dae88747dd64ccc0946cca6e737cb3fdfb37112aa815c87f42"
+    },
+    {
+      "role": "baseline",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/baseline/requested.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/requested.json",
+      "sha256": "7cf400afa067501b095d10b9a6dd348d2e89c6c2d946579c2ced8073aac977e8"
+    },
+    {
+      "role": "baseline",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/baseline/completed.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_400x400_cell1um_step0p00138_strain1p38/completed.json",
+      "sha256": "3a2caca04d00916535910c9e9c4d41bcf9d23a76c05d7bdfc79ab5d7a6ded422"
+    },
+    {
+      "role": "grid",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/grid/output/results.csv",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/output/results.csv",
+      "sha256": "5c77299b6c18595ff89a696dbc3dfb1a9e6d0a194169a649b1da04d2d7265af1"
+    },
+    {
+      "role": "grid",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/grid/output/run.properties",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/output/run.properties",
+      "sha256": "ebe7d104cc3624d7359b5759474a35a533799d7810d08ed3440b711f0525fa33"
+    },
+    {
+      "role": "grid",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/grid/requested.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/requested.json",
+      "sha256": "0cbbd3601ff92ada6777ae941821962522789dea4461bf790900ba752174cc04"
+    },
+    {
+      "role": "grid",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/grid/stopped.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/runs/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/stopped.json",
+      "sha256": "619457c1a9e2079bc0150b93b557ed0f1314bdb58b0bd9652200cb758b591370"
+    },
+    {
+      "role": "frozen_build_provenance",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/compiled.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/builds/219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217/compiled.json",
+      "sha256": "37f85dfc33a771a89653d674bd794b12846535275d689ebaf5e1f596540c4802"
+    },
+    {
+      "role": "frozen_build_provenance",
+      "copied_path": "/home/spectre/Projects/Inconel/corrected/analysis/partial-grid-evidence/class-integrity.json",
+      "original_path": "/home/spectre/Projects/Inconel/corrected/analysis/builds/219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217/class-integrity.json",
+      "sha256": "eb20bc50fe4e0b7b5624188c22d80b0cd06b6271e1b73c53c8367d8aa9125ab2"
+    }
+  ],
+  "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217"
+}

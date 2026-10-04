@@ -1,0 +1,13 @@
+{
+  "engine_bytecode_sha256": "b8ab94c497bd8dcadb1f66af85f2e4d33511350a984b443c6778ac46f45514f0",
+  "class_files": {
+    "inconel617/Config.class": "51e279169b38d908a58b90cb698b466668dd766bed01b19eae4bb54569c2efdd",
+    "inconel617/DrxSimulation$Grain.class": "0039b817f1100f8dcd1f23ef19c15399bbe0af05ef3b7809d5919966aa0dc672",
+    "inconel617/DrxSimulation$Snapshot.class": "3e6283c195b136fe62383294da27d09da0fe32c2377b568312997ac7ec045ceb",
+    "inconel617/DrxSimulation.class": "1b84ceb7cbeec5de3f26fa8b7137119ecf3b945855a73d1a13a55c28a5b5c330",
+    "inconel617/Main.class": "3a003c60e2d16cb0d6748de27faf0c4b695f748be6de8f3cdf6ca25645ad93d1",
+    "inconel617/MaterialModels$Kind.class": "6b8b67e3d87274047d9e9dfa736eb47a60ddf84d6c386fbc48098263040e0479",
+    "inconel617/MaterialModels$Parameters.class": "9e138abbc58bfd8496bf5dc2d25ed9c9bf9665f2d3ae296980a8ea4e955bd519",
+    "inconel617/MaterialModels.class": "2d8fb452e904ff9e7fe29c2f89ad1cd53269deb9751ce3e7903faad98d6062b1"
+  }
+}

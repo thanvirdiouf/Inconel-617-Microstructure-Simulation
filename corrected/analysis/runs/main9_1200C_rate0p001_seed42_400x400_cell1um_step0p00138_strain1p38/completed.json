@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "config": {
+      "model": "main9",
+      "temperature_C": 1200,
+      "strain_rate_s^-1": 0.001,
+      "target_strain": 1.38,
+      "width": 400,
+      "height": 400,
+      "cell_size_um": 1,
+      "initial_grain_diameter_um": 58,
+      "nucleus_diameter_um": 1,
+      "nucleation_band_width_um": 2,
+      "seed": 42,
+      "max_strain_step": 0.00138,
+      "max_cell_travel": 0.25,
+      "output_strain_step": 0.05,
+      "images": false
+    },
+    "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217"
+  },
+  "runtime_seconds": 252.5009167169992,
+  "verification": {
+    "rows": 29,
+    "final": {
+      "strain": 1.38,
+      "time_s": 1380.0,
+      "flow_stress_MPa": 26.0411149895,
+      "mean_grain_diameter_um": 451.351666838,
+      "mean_drx_grain_diameter_um": 451.351666838,
+      "drx_fraction": 1.0,
+      "grain_count": 1.0,
+      "drx_grain_count": 1.0,
+      "nuclei_count": 507.0,
+      "step_count": 94491.0,
+      "max_cell_travel": 0.245125906347
+    },
+    "sampled_peak_stress_MPa": 26.0411149895,
+    "sampled_peak_strain": 1.38,
+    "results_sha256": "666957270ba83a19dfdda9fb24b8b33d6fe40a5036fd359de8577d91f521fe65",
+    "metadata_sha256": "3e3c5b2dd879ea17e1617393552ccd219815b1b91e813c142d81d11218259cf1"
+  }
+}

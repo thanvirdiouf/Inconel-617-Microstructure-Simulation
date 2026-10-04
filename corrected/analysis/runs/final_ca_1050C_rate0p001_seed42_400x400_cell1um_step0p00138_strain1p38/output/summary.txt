@@ -1,0 +1,9 @@
+status=complete
+final_strain=1.38000000000
+final_time_s=1380.00000000
+final_flow_stress_MPa=85.8852492213
+final_drx_fraction=1.00000000000
+final_mean_grain_diameter_um=83.0063283875
+final_mean_drx_grain_diameter_um=83.0063283875
+steps=6828
+maximum_observed_cell_travel=0.249170358618

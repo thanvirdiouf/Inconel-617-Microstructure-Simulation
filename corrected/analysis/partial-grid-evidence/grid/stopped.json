@@ -1,0 +1,30 @@
+{
+  "status": "stopped_optional",
+  "user_requested_stop": true,
+  "controller_exit_code": 130,
+  "closed_utc": "2026-10-04T14:10:51.468123+00:00",
+  "identity": {
+    "config": {
+      "model": "final_ca",
+      "temperature_C": 1100,
+      "strain_rate_s^-1": 0.001,
+      "target_strain": 1.38,
+      "width": 800,
+      "height": 800,
+      "cell_size_um": 0.5,
+      "initial_grain_diameter_um": 58,
+      "nucleus_diameter_um": 1,
+      "nucleation_band_width_um": 2,
+      "seed": 42,
+      "max_strain_step": 0.00138,
+      "max_cell_travel": 0.25,
+      "output_strain_step": 0.05,
+      "images": false
+    },
+    "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217"
+  },
+  "last_saved_strain": 0.95,
+  "last_saved_step_count": 106713,
+  "outputs_preserved": true,
+  "reason": "User requested prompt completion; optional grid refinement stopped before target strain."
+}

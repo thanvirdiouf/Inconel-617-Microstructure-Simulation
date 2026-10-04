@@ -1,0 +1,30 @@
+{
+  "status": "timed_out_optional",
+  "timeout_seconds": 720,
+  "endpoint_completed": false,
+  "last_saved_strain": 0.85,
+  "last_saved_step_count": 96511,
+  "source_sha256": "219dc596d88136b03574f0dcd49976812deb0c82019c03a57c099302bf240217",
+  "controller_manifest": "/home/spectre/Projects/Inconel/corrected/analysis/grid-retry-20261004.json",
+  "partial_output_directory": "/home/spectre/Projects/Inconel/corrected/analysis/grid-retry-20261004/final_ca_1100C_rate0p001_seed42_800x800_cell0p5um_step0p00138_strain1p38/output",
+  "runtime_seconds": 720.0128283429985,
+  "configuration": {
+    "model": "final_ca",
+    "temperature_C": 1100,
+    "strain_rate_s^-1": 0.001,
+    "target_strain": 1.38,
+    "width": 800,
+    "height": 800,
+    "cell_size_um": 0.5,
+    "initial_grain_diameter_um": 58,
+    "nucleus_diameter_um": 1,
+    "nucleation_band_width_um": 2,
+    "seed": 42,
+    "max_strain_step": 0.00138,
+    "max_cell_travel": 0.25,
+    "output_strain_step": 0.05,
+    "images": false
+  },
+  "reason": "Strict 720-second timeout for the requested 15-minute completion deadline",
+  "comparison": "Intermediate diagnostic at common strain 0.5 is separate from endpoint validation"
+}
